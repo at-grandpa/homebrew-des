@@ -6,7 +6,7 @@ class Des < Formula
 
 
   def install
-    bin.install "des"
+    bin.install "hoge"
   end
 
   test do
