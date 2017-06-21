@@ -6,6 +6,7 @@ class Des < Formula
 
   def install
     bin.install "des"
+    system "rm -rf #{File.expand_path("~")}/.desrc.yml && cp ./.desrc.yml #{File.expand_path("~")}/.desrc.yml"
   end
 
   test do
