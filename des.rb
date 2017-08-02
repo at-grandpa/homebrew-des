@@ -1,8 +1,8 @@
 class Des < Formula
   desc "CLI to create Docker Environment Setting files."
   homepage "https://github.com/at-grandpa/des"
-  url "https://github.com/at-grandpa/des/releases/download/0.1.1/des-0.1.1-darwin-x86_64.tar.gz"
-  sha256 "1830deb31b3ef37a862d84b235a17b9bc046a3c4cc19ab6d4539f4a765185c38"
+  url "https://github.com/at-grandpa/des/releases/download/0.1.2/des-0.1.2-darwin-x86_64.tar.gz"
+  sha256 "48ea1e9dfa136700d103e0da37a5afe6fe8f0adb5e9c6d4526e01469f4195da9"
 
   def install
     bin.install "des"
